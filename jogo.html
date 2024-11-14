@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas e Respostas</title>
+    <link rel="shortcut icon" href="img/vela-de-halloween.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="page2">
+
+    <main>
+        <section class="pai questao ativa">
+            <h3 class="titulo filho pergunta" >Qual o filme mais famoso da Barbie?</h3>
+            
+            <div class="opcoes">
+                <button class="resposta" onclick="responder(true)">Barbie live action.</button>
+                <button class="resposta" onclick="responder(false)">Barbie a princesa e a plebéia.</button>
+                <button class="resposta" onclick="responder(false)">Barbie e o portal secreto.</button>
+                <button class="resposta" onclick="responder(false)">Barbie escola de princesas.</button>
+                <button class="resposta" onclick="responder(false)">Barbie e as 12 princesas bailarinas.</button>
+            </div>
+            
+            
+        </section>
+
+        <section class="pai questao">
+            <h3 class="titulo filho pergunta" >Qual o nome do namorado da Barbie?</h3>
+            
+            <div class="opcoes">
+                <button class="resposta" onclick="responder(false)">Cristiano</button>
+                <button class="resposta" onclick="responder(false)">Lucas</button>
+                <button class="resposta" onclick="responder(false)">Richard</button>
+                <button class="resposta"  onclick="responder(true)">Ken</button>
+                <button class="resposta" onclick="responder(false)">Michel</button>
+            </div>
+            
+            
+        </section>
+
+        <section class="pai questao">
+            <h3 class="titulo filho pergunta" >Qual a cor favorita da Barbie?</h3>
+            
+            <div class="opcoes">
+                <button class="resposta" onclick="responder(false)">Branco</button>
+                <button class="resposta" onclick="responder(false)">Todas</button>
+                <button class="resposta" onclick="responder(false)">Lilás</button>
+                <button class="resposta"  onclick="responder(false)">Azul</button>
+                <button class="resposta" onclick="responder(true)">Rosa</button>
+            </div>
+            
+        </section>
+
+        <section class="pai questao">
+                <h3 class="titulo filho pergunta">Quem são as melhores amigas da Barbie?</h3>
+                
+                <div class="opcoes">
+                    <button class="resposta" onclick="responder(false)">Maiara e Maraisa</button>
+                    <button class="resposta" onclick="responder(false)">Isa e Bela</button>
+                    <button class="resposta" onclick="responder(false)">Ana e Vitória</button>
+                    <button class="resposta"  onclick="responder(true)">Nikki e Teresa</button>
+                    <button class="resposta" onclick="responder(false)">Cristina e Joana</button>
+                </div>
+                
+                
+        </section>
+
+        <section class="pai questao">
+                <h3 class="titulo filho pergunta" >Qual era a profissão dela?</h3>
+                
+                <div class="opcoes">
+                    <button class="resposta" onclick="responder(false)">Atriz</button>
+                    <button class="resposta" onclick="responder(false)">Motorista</button>
+                    <button class="resposta"  onclick="responder(false)">Veterinária</button>
+                    <button class="resposta" onclick="responder(false)">Médica</button>
+                    <button class="resposta" onclick="responder(true)">Todas ja que a Barbie pode ser tudo o que ela quiser</button>
+                </div>
+                
+                
+        </section>
+        
+        
+    </main>
+
+        <!-- Imagem de erro em tela cheia -->
+        <div id="telaCheiaErro" class="tela-cheia">
+            <img src="imagens/scary.jfif" alt="Erro" id="imagemErro">
+            <audio id="somErro" src="audio/audio2.mp3"></audio>
+        </div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
